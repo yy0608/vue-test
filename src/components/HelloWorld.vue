@@ -5,7 +5,7 @@
       <option v-for="(item, index) in list" :key="item.value" :value="index" :selected="item.value === selected">{{item.label}}</option>
     </select> -->
     <ul>
-      <li v-for="(item, index) in list" :key="item.syb">{{ item.label }}<input /></li>
+      <li v-for="item in list" :key="item.syb">{{ item.label }}<input /></li>
     </ul>
     <!-- <div>
       <list-item v-for="(item, index) in list" :key="newSymbol()" :msg="item.label" />

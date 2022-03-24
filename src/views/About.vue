@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <form-submitter />
   </div>
 </template>
+
+<script>
+import FormSubmitter from '@/components/FormSubmitter'
+
+export default {
+  components: {
+    FormSubmitter
+  }
+}
+</script>
