@@ -7,17 +7,27 @@
         <div>ggg{{ s }}</div>
       </template>
     </aaa>
+
+    <ccc />
+
+    <FormSubmitter />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import A from '../components/A.vue'
+import C from '../components/C.vue'
+import FormSubmitter from '@/components/FormSubmitter'
 
 export default {
   name: 'Home',
   components: {
-    'aaa': A
+    'aaa': A,
+    'ccc': C,
+    FormSubmitter
+  },
+  mounted () {
   }
 }
 </script>
