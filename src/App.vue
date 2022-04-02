@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <a-button>sss</a-button>
+    <B></B>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -7,6 +9,16 @@
     <router-view/>
   </div>
 </template>
+
+<script>
+import B from '@/components/B'
+
+export default {
+  components: {
+    B
+  }
+}
+</script>
 
 <style>
 #app {

@@ -3,7 +3,7 @@
     <aaa msg="Welcome to Your Vue.js App">
       <div>ddfsdf</div>
       
-      <template #aaa="{ s }">
+      <template v-slot:aaa="{ s }">
         <div>ggg{{ s }}</div>
       </template>
     </aaa>
