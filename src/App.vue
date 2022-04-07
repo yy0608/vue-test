@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <a-button>sss</a-button>
     <B></B>
+    <yy-button-group>
+      <yy-button>Cancel</yy-button>
+      <yy-button type="primary">
+        OK
+      </yy-button>
+    </yy-button-group>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
